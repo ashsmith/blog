@@ -16,29 +16,38 @@
   "dependencies": {
     "@portabletext/react": "3.0.4",
     "@sanity/client": "6.4.7",
+    "@sanity/code-input": "^4.1.1",
     "@sanity/demo": "1.0.2",
     "@sanity/vision": "3.15.1",
     "@tailwindcss/typography": "0.5.9",
-    "next": "13.4.17",
+    "@vercel/og": "^0.5.13",
+    "next": "^13.4.19",
     "next-sanity": "5.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-refractor": "^2.1.7",
     "sanity": "3.15.1",
     "sanity-plugin-iframe-pane": "2.5.5",
     "styled-components": "5.3.11"
   },
   "devDependencies": {
+    "@sanity/block-tools": "^3.16.4",
     "@types/react": "18.2.20",
     "autoprefixer": "10.4.15",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "jsdom": "^22.1.0",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.17",
     "eslint-plugin-simple-import-sort": "10.0.0",
+    "marked": "^9.0.0",
     "postcss": "8.4.28",
     "prettier": "3.0.2",
     "prettier-plugin-packagejson": "2.4.5",
     "prettier-plugin-tailwindcss": "0.5.3",
     "tailwindcss": "3.3.3",
-    "typescript": "5.1.6"
+    "typescript": "5.1.6",
+    "ts-node": "^10.9.1"
   },
   "engines": {
     "node": ">=16"

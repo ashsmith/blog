@@ -16,7 +16,13 @@ export default function Card({ post }: { post: Post }) {
           alt=""
         />
       ) : (
-        <div className="card__cover--none" />
+        <Image
+          className="card__cover"
+          src={`/api/fallbackImage?title=${post.title}&w=500&h=300`}
+          height={300}
+          width={500}
+          alt=""
+        />
       )}
       <div className="card__container">
         <h3 className="card__title">

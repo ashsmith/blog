@@ -1,0 +1,292 @@
+[
+  {
+    "source": "/terraform-provider-for-bigcommerce",
+    "destination": "/post/terraform-provider-for-bigcommerce",
+    "permanent": true
+  },
+  {
+    "source": "/cloud-functions-and-php",
+    "destination": "/post/cloud-functions-and-php",
+    "permanent": true
+  },
+  {
+    "source": "/setting-up-ssh-on-a-custom-bitbucket-pipe",
+    "destination": "/post/setting-up-ssh-on-a-custom-bitbucket-pipe",
+    "permanent": true
+  },
+  {
+    "source": "/introducing-ssl-gen-a-cli-utility-for-generating-self-signed-certificates",
+    "destination": "/post/introducing-ssl-gen-a-cli-utility-for-generating-self-signed-certificates",
+    "permanent": true
+  },
+  {
+    "source": "/conditionally-required-props-with-typescript-in-react",
+    "destination": "/post/conditionally-required-props-with-typescript-in-react",
+    "permanent": true
+  },
+  {
+    "source": "/handling-custom-error-classes-in-typescript",
+    "destination": "/post/handling-custom-error-classes-in-typescript",
+    "permanent": true
+  },
+  {
+    "source": "/improved-mono-repo-for-typescript-cloud-function-development",
+    "destination": "/post/improved-mono-repo-for-typescript-cloud-function-development",
+    "permanent": true
+  },
+  {
+    "source": "/provisioning-gcp-cloud-functions-with-terraform",
+    "destination": "/post/provisioning-gcp-cloud-functions-with-terraform",
+    "permanent": true
+  },
+  {
+    "source": "/developing-gcp-cloud-functions-locally-with-typescript",
+    "destination": "/post/developing-gcp-cloud-functions-locally-with-typescript",
+    "permanent": true
+  },
+  {
+    "source": "/certification-gcp-professional-cloud-architect",
+    "destination": "/post/certification-gcp-professional-cloud-architect",
+    "permanent": true
+  },
+  {
+    "source": "/magento2/module-from-scratch-part-6-unit-testing",
+    "destination": "/post/magento2-module-from-scratch-part-6-unit-testing",
+    "permanent": true
+  },
+  {
+    "source": "/magento2/transactional-emails-in-magento-2",
+    "destination": "/post/magento2-transactional-emails-in-magento-2",
+    "permanent": true
+  },
+  {
+    "source": "/2013/02/magento-developments-tips-logging-template-paths",
+    "destination": "/post/2013-02/magento-developments-tips-logging-template-paths",
+    "permanent": true
+  },
+  {
+    "source": "/magento2/module-from-scratch-module-part-2-models",
+    "destination": "/post/magento2-module-from-scratch-module-part-2-models",
+    "permanent": true
+  },
+  {
+    "source": "/2014/12/simple-magento2-controller-module",
+    "destination": "/post/2014-12/simple-magento2-controller-module",
+    "permanent": true
+  },
+  {
+    "source": "/magento2/tips-to-improve-frontend-development-workflow",
+    "destination": "/post/magento2-tips-to-improve-frontend-development-workflow",
+    "permanent": true
+  },
+  {
+    "source": "/magento2/tip-getting-add-to-cart-url-for-product",
+    "destination": "/post/magento2-tip-getting-add-to-cart-url-for-product",
+    "permanent": true
+  },
+  {
+    "source": "/2013/04/magento-one-page-checkout-bookmarklet",
+    "destination": "/post/2013-04/magento-one-page-checkout-bookmarklet",
+    "permanent": true
+  },
+  {
+    "source": "/2012/12/a-look-at-uk-online-payment-providers",
+    "destination": "/post/2012-12/a-look-at-uk-online-payment-providers",
+    "permanent": true
+  },
+  {
+    "source": "/magento2/tip-getting-formatted-price-with-currency-symbol",
+    "destination": "/post/magento2-tip-getting-formatted-price-with-currency-symbol",
+    "permanent": true
+  },
+  {
+    "source": "/magento2/module-from-scratch-part-4-the-frontend",
+    "destination": "/post/magento2-module-from-scratch-part-4-the-frontend",
+    "permanent": true
+  },
+  {
+    "source": "/2013/05/meteorifys-penguin-2-0-checklist",
+    "destination": "/post/2013-05/meteorifys-penguin-2-0-checklist",
+    "permanent": true
+  },
+  {
+    "source": "/dev/2014/05/22/improving-the-performance-of-my-blog",
+    "destination": "/post/dev-2014/05/22/improving-the-performance-of-my-blog",
+    "permanent": true
+  },
+  {
+    "source": "/2013/03/quick-tip-adding-custom-category-attributes-to-magento",
+    "destination": "/post/2013-03/quick-tip-adding-custom-category-attributes-to-magento",
+    "permanent": true
+  },
+  {
+    "source": "/magento2/tip-programmatically-add-class-to-body",
+    "destination": "/post/magento2-tip-programmatically-add-class-to-body",
+    "permanent": true
+  },
+  {
+    "source": "/magento2/tip-getting-a-form-key-in-your-template",
+    "destination": "/post/magento2-tip-getting-a-form-key-in-your-template",
+    "permanent": true
+  },
+  {
+    "source": "/magento2/module-from-scratch-part-5-adminhtml",
+    "destination": "/post/magento2-module-from-scratch-part-5-adminhtml",
+    "permanent": true
+  },
+  {
+    "source": "/2015/07/thoughts-on-huel",
+    "destination": "/post/2015-07/thoughts-on-huel",
+    "permanent": true
+  },
+  {
+    "source": "/magento2/add-custom-images-to-product-media-gallery",
+    "destination": "/post/magento2-add-custom-images-to-product-media-gallery",
+    "permanent": true
+  },
+  {
+    "source": "/dev/2013/11/01/quick-tip-for-deploying-projects-via-deployhqbeanstalk",
+    "destination": "/post/dev-2013/11/01/quick-tip-for-deploying-projects-via-deployhqbeanstalk",
+    "permanent": true
+  },
+  {
+    "source": "/2013/03/11-must-read-e-commerce-blogs",
+    "destination": "/post/2013-03/11-must-read-e-commerce-blogs",
+    "permanent": true
+  },
+  {
+    "source": "/docker/get-xdebug-working-with-docker-for-mac",
+    "destination": "/post/docker-get-xdebug-working-with-docker-for-mac",
+    "permanent": true
+  },
+  {
+    "source": "/dev/2013/11/13/bash-aliases",
+    "destination": "/post/dev-2013/11/13/bash-aliases",
+    "permanent": true
+  },
+  {
+    "source": "/2012/12/quick-tip-change-magento-default-increment-id-for-orders-invoices",
+    "destination": "/post/2012-12/quick-tip-change-magento-default-increment-id-for-orders-invoices",
+    "permanent": true
+  },
+  {
+    "source": "/dev/2014/08/12/track-disqus-comments-in-google-analytics",
+    "destination": "/post/dev-2014/08/12/track-disqus-comments-in-google-analytics",
+    "permanent": true
+  },
+  {
+    "source": "/magento1/2014/08/28/custom-transactional-emails-in-magento",
+    "destination": "/post/magento1-2014/08/28/custom-transactional-emails-in-magento",
+    "permanent": true
+  },
+  {
+    "source": "/2012/12/creating-a-faster-magento-store-part-one-server-setup",
+    "destination": "/post/2012-12/creating-a-faster-magento-store-part-one-server-setup",
+    "permanent": true
+  },
+  {
+    "source": "/2012/12/making-use-of-observers-in-magento",
+    "destination": "/post/2012-12/making-use-of-observers-in-magento",
+    "permanent": true
+  },
+  {
+    "source": "/2013/03/stock-reporting-101",
+    "destination": "/post/2013-03/stock-reporting-101",
+    "permanent": true
+  },
+  {
+    "source": "/magento2/suggestions-to-improve-ui-components",
+    "destination": "/post/magento2-suggestions-to-improve-ui-components",
+    "permanent": true
+  },
+  {
+    "source": "/magento2/module-from-scratch-part-3-database-tables",
+    "destination": "/post/magento2-module-from-scratch-part-3-database-tables",
+    "permanent": true
+  },
+  {
+    "source": "/magento2/module-from-scratch-introduction",
+    "destination": "/post/magento2-module-from-scratch-introduction",
+    "permanent": true
+  },
+  {
+    "source": "/magento2/using-extension-attributes-with-products",
+    "destination": "/post/magento2-using-extension-attributes-with-products",
+    "permanent": true
+  },
+  {
+    "source": "/2012/11/quick-tip-override-magento-meta-data-in-xml-files",
+    "destination": "/post/2012-11/quick-tip-override-magento-meta-data-in-xml-files",
+    "permanent": true
+  },
+  {
+    "source": "/2012/11/improve-your-ecommerce-seo-with-6-simple-tips",
+    "destination": "/post/2012-11/improve-your-ecommerce-seo-with-6-simple-tips",
+    "permanent": true
+  },
+  {
+    "source": "/2012/11/get-rid-of-__storedefault-from-your-magento-links",
+    "destination": "/post/2012-11/get-rid-of-__storedefault-from-your-magento-links",
+    "permanent": true
+  },
+  {
+    "source": "/2012/05/importing-product-images-via-csv-in-magento-1-7-0-0",
+    "destination": "/post/2012-05/importing-product-images-via-csv-in-magento-1-7-0-0",
+    "permanent": true
+  },
+  {
+    "source": "/2012/03/tracking-magentos-onepage-checkout-steps-in-google-analytics",
+    "destination": "/post/2012-03/tracking-magentos-onepage-checkout-steps-in-google-analytics",
+    "permanent": true
+  },
+  {
+    "source": "/2011/08/quick-tip-adding-blocks-to-templates-in-magento",
+    "destination": "/post/2011-08/quick-tip-adding-blocks-to-templates-in-magento",
+    "permanent": true
+  },
+  {
+    "source": "/2012/03/tips-for-tuning-magentos-performance",
+    "destination": "/post/2012-03/tips-for-tuning-magentos-performance",
+    "permanent": true
+  },
+  {
+    "source": "/2012/03/quick-tip-setup-eu-tax-rates-in-magento-quickly",
+    "destination": "/post/2012-03/quick-tip-setup-eu-tax-rates-in-magento-quickly",
+    "permanent": true
+  },
+  {
+    "source": "/2011/07/quick-tip-remove-paypal-logo-from-catalog-pages-in-magento",
+    "destination": "/post/2011-07/quick-tip-remove-paypal-logo-from-catalog-pages-in-magento",
+    "permanent": true
+  },
+  {
+    "source": "/misc/joining-play-sports-network",
+    "destination": "/post/misc-joining-play-sports-network",
+    "permanent": true
+  },
+  {
+    "source": "/magento2/understanding-magento2-webapi-exception-handling",
+    "destination": "/post/magento2-understanding-magento2-webapi-exception-handling",
+    "permanent": true
+  },
+  {
+    "source": "/magento2/module-from-scratch-module-part-1-setup",
+    "destination": "/post/magento2-module-from-scratch-module-part-1-setup",
+    "permanent": true
+  },
+  {
+    "source": "/scaling-phpfpm-with-custom-metrics-gke",
+    "destination": "/post/scaling-phpfpm-with-custom-metrics-gke",
+    "permanent": true
+  },
+  {
+    "source": "/optimise-magento2-pubstatic-directory",
+    "destination": "/post/optimise-magento2-pubstatic-directory",
+    "permanent": true
+  },
+  {
+    "source": "/weymouth-ironman-2019",
+    "destination": "/post/weymouth-ironman-2019",
+    "permanent": true
+  }
+]

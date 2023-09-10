@@ -3,6 +3,7 @@ import type { GetStaticProps, InferGetStaticPropsType } from 'next'
 import Image from 'next/image'
 import { useLiveQuery } from 'next-sanity/preview'
 
+import { Code } from '~/components/Code'
 import Container from '~/components/Container'
 import { readToken } from '~/lib/sanity.api'
 import { getClient } from '~/lib/sanity.client'
@@ -63,14 +64,28 @@ export default function ProjectSlugRoute(
             alt=""
           />
         ) : (
-          <div className="post__cover--none" />
+          <Image
+            className="post__cover"
+            src={`/api/fallbackImage?title=${post.title}&w=500&h=300`}
+            height={300}
+            width={500}
+            alt=""
+          />
         )}
         <div className="post__container">
           <h1 className="post__title">{post.title}</h1>
           <p className="post__excerpt">{post.excerpt}</p>
           <p className="post__date">{formatDate(post._createdAt)}</p>
           <div className="post__content">
-            <PortableText value={post.body} />
+            <PortableText
+              value={post.body}
+              onMissingComponent={(e) => console.log(e)}
+              components={{
+                types: {
+                  code: (props) => <Code {...props.value} />,
+                },
+              }}
+            />
           </div>
         </div>
       </section>

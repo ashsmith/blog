@@ -15,6 +15,7 @@ export default defineType({
   name: 'blockContent',
   type: 'array',
   of: [
+    // { type: 'code' },
     defineArrayMember({
       title: 'Block',
       type: 'block',

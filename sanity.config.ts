@@ -2,6 +2,7 @@
  * This config is used to set up Sanity Studio that's mounted on the `/pages/studio/[[...index]].tsx` route
  */
 
+import { codeInput } from '@sanity/code-input'
 import { visionTool } from '@sanity/vision'
 import { defineConfig } from 'sanity'
 import { deskTool } from 'sanity/desk'
@@ -18,8 +19,8 @@ import {
   dataset,
   previewSecretId,
   projectId,
-} from '~/lib/sanity.api'
-import { schema } from '~/schemas'
+} from './src/lib/sanity.api'
+import { schema } from './src/schemas'
 
 const iframeOptions = {
   url: defineUrlResolver({
@@ -63,5 +64,6 @@ export default defineConfig({
     // Vision lets you query your content with GROQ in the studio
     // https://www.sanity.io/docs/the-vision-plugin
     visionTool({ defaultApiVersion: apiVersion }),
+    codeInput(),
   ],
 })
