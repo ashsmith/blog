@@ -43,10 +43,10 @@ export default function IndexPage(
   const [posts] = useLiveQuery<Post[]>(props.posts, postsQuery)
   return (
     <Container>
-      <div className="bg-white rounded-lg overflow-hidden ring-1 ring-slate-900/5 flex p-8 mb-5">
-        <div className="relative z-10 overflow-hidden flex-none -m-8 mr-8 w-64 h-auto">
+      <div className="bg-white rounded-lg overflow-hidden md:ring-1 ring-slate-900/5 flex p-8 mb-5">
+        <div className="relative z-10 flex-none overflow-hidden -m-8 mr-8 w-24 md:w-64 h-auto items-center inline-flex md:block">
           <Image
-            className="absolute max-w-none object-cover bg-slate-100 -ml-12 -mt-12"
+            className="object-cover bg-slate-100 max-w-24 md:max-w-none md:-ml-12 md:-mt-12 rounded-xl md:rounded-none"
             src={urlForImage(props.homepage.image).width(350).height(350).url()}
             alt="Picture of the author"
             width={350}
