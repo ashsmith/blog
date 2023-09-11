@@ -61,7 +61,7 @@
   },
   {
     "source": "/2013/02/magento-developments-tips-logging-template-paths",
-    "destination": "/post/2013-02/magento-developments-tips-logging-template-paths",
+    "destination": "/post/2013-02-magento-developments-tips-logging-template-paths",
     "permanent": true
   },
   {
@@ -71,7 +71,7 @@
   },
   {
     "source": "/2014/12/simple-magento2-controller-module",
-    "destination": "/post/2014-12/simple-magento2-controller-module",
+    "destination": "/post/2014-12-simple-magento2-controller-module",
     "permanent": true
   },
   {
@@ -86,12 +86,12 @@
   },
   {
     "source": "/2013/04/magento-one-page-checkout-bookmarklet",
-    "destination": "/post/2013-04/magento-one-page-checkout-bookmarklet",
+    "destination": "/post/2013-04-magento-one-page-checkout-bookmarklet",
     "permanent": true
   },
   {
     "source": "/2012/12/a-look-at-uk-online-payment-providers",
-    "destination": "/post/2012-12/a-look-at-uk-online-payment-providers",
+    "destination": "/post/2012-12-a-look-at-uk-online-payment-providers",
     "permanent": true
   },
   {
@@ -106,17 +106,17 @@
   },
   {
     "source": "/2013/05/meteorifys-penguin-2-0-checklist",
-    "destination": "/post/2013-05/meteorifys-penguin-2-0-checklist",
+    "destination": "/post/2013-05-meteorifys-penguin-2-0-checklist",
     "permanent": true
   },
   {
     "source": "/dev/2014/05/22/improving-the-performance-of-my-blog",
-    "destination": "/post/dev-2014/05/22/improving-the-performance-of-my-blog",
+    "destination": "/post/dev-2014-05-22-improving-the-performance-of-my-blog",
     "permanent": true
   },
   {
     "source": "/2013/03/quick-tip-adding-custom-category-attributes-to-magento",
-    "destination": "/post/2013-03/quick-tip-adding-custom-category-attributes-to-magento",
+    "destination": "/post/2013-03-quick-tip-adding-custom-category-attributes-to-magento",
     "permanent": true
   },
   {
@@ -136,7 +136,7 @@
   },
   {
     "source": "/2015/07/thoughts-on-huel",
-    "destination": "/post/2015-07/thoughts-on-huel",
+    "destination": "/post/2015-07-thoughts-on-huel",
     "permanent": true
   },
   {
@@ -146,12 +146,12 @@
   },
   {
     "source": "/dev/2013/11/01/quick-tip-for-deploying-projects-via-deployhqbeanstalk",
-    "destination": "/post/dev-2013/11/01/quick-tip-for-deploying-projects-via-deployhqbeanstalk",
+    "destination": "/post/dev-2013-11-01-quick-tip-for-deploying-projects-via-deployhqbeanstalk",
     "permanent": true
   },
   {
     "source": "/2013/03/11-must-read-e-commerce-blogs",
-    "destination": "/post/2013-03/11-must-read-e-commerce-blogs",
+    "destination": "/post/2013-03-11-must-read-e-commerce-blogs",
     "permanent": true
   },
   {
@@ -161,37 +161,37 @@
   },
   {
     "source": "/dev/2013/11/13/bash-aliases",
-    "destination": "/post/dev-2013/11/13/bash-aliases",
+    "destination": "/post/dev-2013-11-13-bash-aliases",
     "permanent": true
   },
   {
     "source": "/2012/12/quick-tip-change-magento-default-increment-id-for-orders-invoices",
-    "destination": "/post/2012-12/quick-tip-change-magento-default-increment-id-for-orders-invoices",
+    "destination": "/post/2012-12-quick-tip-change-magento-default-increment-id-for-orders-invoices",
     "permanent": true
   },
   {
     "source": "/dev/2014/08/12/track-disqus-comments-in-google-analytics",
-    "destination": "/post/dev-2014/08/12/track-disqus-comments-in-google-analytics",
+    "destination": "/post/dev-2014-08-12-track-disqus-comments-in-google-analytics",
     "permanent": true
   },
   {
     "source": "/magento1/2014/08/28/custom-transactional-emails-in-magento",
-    "destination": "/post/magento1-2014/08/28/custom-transactional-emails-in-magento",
+    "destination": "/post/magento1-2014-08-28-custom-transactional-emails-in-magento",
     "permanent": true
   },
   {
     "source": "/2012/12/creating-a-faster-magento-store-part-one-server-setup",
-    "destination": "/post/2012-12/creating-a-faster-magento-store-part-one-server-setup",
+    "destination": "/post/2012-12-creating-a-faster-magento-store-part-one-server-setup",
     "permanent": true
   },
   {
     "source": "/2012/12/making-use-of-observers-in-magento",
-    "destination": "/post/2012-12/making-use-of-observers-in-magento",
+    "destination": "/post/2012-12-making-use-of-observers-in-magento",
     "permanent": true
   },
   {
     "source": "/2013/03/stock-reporting-101",
-    "destination": "/post/2013-03/stock-reporting-101",
+    "destination": "/post/2013-03-stock-reporting-101",
     "permanent": true
   },
   {
@@ -216,47 +216,47 @@
   },
   {
     "source": "/2012/11/quick-tip-override-magento-meta-data-in-xml-files",
-    "destination": "/post/2012-11/quick-tip-override-magento-meta-data-in-xml-files",
+    "destination": "/post/2012-11-quick-tip-override-magento-meta-data-in-xml-files",
     "permanent": true
   },
   {
     "source": "/2012/11/improve-your-ecommerce-seo-with-6-simple-tips",
-    "destination": "/post/2012-11/improve-your-ecommerce-seo-with-6-simple-tips",
+    "destination": "/post/2012-11-improve-your-ecommerce-seo-with-6-simple-tips",
     "permanent": true
   },
   {
     "source": "/2012/11/get-rid-of-__storedefault-from-your-magento-links",
-    "destination": "/post/2012-11/get-rid-of-__storedefault-from-your-magento-links",
+    "destination": "/post/2012-11-get-rid-of-__storedefault-from-your-magento-links",
     "permanent": true
   },
   {
     "source": "/2012/05/importing-product-images-via-csv-in-magento-1-7-0-0",
-    "destination": "/post/2012-05/importing-product-images-via-csv-in-magento-1-7-0-0",
+    "destination": "/post/2012-05-importing-product-images-via-csv-in-magento-1-7-0-0",
     "permanent": true
   },
   {
     "source": "/2012/03/tracking-magentos-onepage-checkout-steps-in-google-analytics",
-    "destination": "/post/2012-03/tracking-magentos-onepage-checkout-steps-in-google-analytics",
+    "destination": "/post/2012-03-tracking-magentos-onepage-checkout-steps-in-google-analytics",
     "permanent": true
   },
   {
     "source": "/2011/08/quick-tip-adding-blocks-to-templates-in-magento",
-    "destination": "/post/2011-08/quick-tip-adding-blocks-to-templates-in-magento",
+    "destination": "/post/2011-08-quick-tip-adding-blocks-to-templates-in-magento",
     "permanent": true
   },
   {
     "source": "/2012/03/tips-for-tuning-magentos-performance",
-    "destination": "/post/2012-03/tips-for-tuning-magentos-performance",
+    "destination": "/post/2012-03-tips-for-tuning-magentos-performance",
     "permanent": true
   },
   {
     "source": "/2012/03/quick-tip-setup-eu-tax-rates-in-magento-quickly",
-    "destination": "/post/2012-03/quick-tip-setup-eu-tax-rates-in-magento-quickly",
+    "destination": "/post/2012-03-quick-tip-setup-eu-tax-rates-in-magento-quickly",
     "permanent": true
   },
   {
     "source": "/2011/07/quick-tip-remove-paypal-logo-from-catalog-pages-in-magento",
-    "destination": "/post/2011-07/quick-tip-remove-paypal-logo-from-catalog-pages-in-magento",
+    "destination": "/post/2011-07-quick-tip-remove-paypal-logo-from-catalog-pages-in-magento",
     "permanent": true
   },
   {

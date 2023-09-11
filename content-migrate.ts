@@ -109,7 +109,7 @@ const main = async () => {
         const portableText = convertMarkdownToPortableText(item.fields.content)
         redirects.push({
           source: `/${item.fields.permalink}`,
-          destination: `/post/${item.fields.permalink.replace('/', '-')}`,
+          destination: `/post/${item.fields.permalink.replaceAll('/', '-')}`,
           permanent: true,
         })
         return {
@@ -120,7 +120,7 @@ const main = async () => {
           title: item.fields.title,
           slug: {
             _type: 'slug',
-            current: item.fields.permalink.replace('/', '-'),
+            current: item.fields.permalink.replaceAll('/', '-'),
           },
           body: portableText,
         }
