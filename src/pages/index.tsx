@@ -43,7 +43,7 @@ export default function IndexPage(
   const [posts] = useLiveQuery<Post[]>(props.posts, postsQuery)
   return (
     <Container>
-      <div className="bg-white rounded-lg overflow-hidden ring-1 ring-slate-900/5 dark:bg-slate-800 dark:highlight-white/5 dark:ring-0 flex p-8 mb-5">
+      <div className="bg-white rounded-lg overflow-hidden ring-1 ring-slate-900/5 flex p-8 mb-5">
         <div className="relative z-10 overflow-hidden flex-none -m-8 mr-8 w-64 h-auto">
           <Image
             className="absolute max-w-none object-cover bg-slate-100 -ml-12 -mt-12"
