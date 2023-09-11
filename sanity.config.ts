@@ -33,8 +33,8 @@ const iframeOptions = {
 
 export default defineConfig({
   basePath: '/studio',
-  name: 'project-name',
-  title: 'Project Name',
+  name: 'ashsmith',
+  title: 'Ash Smith - Blog',
   projectId,
   dataset,
   //edit schemas in './src/schemas'
