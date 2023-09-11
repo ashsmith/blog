@@ -11,6 +11,12 @@ export async function getPosts(client: SanityClient): Promise<Post[]> {
 
 export const postBySlugQuery = groq`*[_type == "post" && slug.current == $slug][0]`
 
+export const homepageQuery = groq`*[_type == "home"][0]`
+
+export async function getHomepage(client: SanityClient): Promise<Homepage> {
+  return await client.fetch(homepageQuery)
+}
+
 export async function getPost(
   client: SanityClient,
   slug: string,
@@ -33,4 +39,14 @@ export interface Post {
   excerpt?: string
   mainImage?: ImageAsset
   body: PortableTextBlock[]
+}
+
+export interface Homepage {
+  _type: 'home'
+  _id: string
+  _createdAt: string
+  title?: string
+  subtitle?: string
+  description?: string
+  image?: ImageAsset
 }

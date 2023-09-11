@@ -1,13 +1,76 @@
 import Link from 'next/link'
+import {
+  SiGithub,
+  SiInstagram,
+  SiLinkedin,
+  SiStrava,
+  SiTwitter,
+} from 'react-icons/si'
 
 export default function Container({ children }: { children: React.ReactNode }) {
   return (
     <div className="container">
-      <header className="header">
-        <Link className="header__title" href="/">
-          Ash Smith
-        </Link>
-      </header>
+      <div className="max-w-4xl m-auto mt-2">
+        <div className="grid grid-cols-2 gap-2">
+          <div className="place-self-start">
+            <ul>
+              <li className="inline-block px-2">
+                <Link href="/">Home</Link>
+              </li>
+              {/* <li className="inline-block px-2"><Link href="/">About</Link></li> */}
+              {/* <li className="inline-block px-2"><Link href="/">Blog</Link></li> */}
+            </ul>
+          </div>
+          <div className="place-self-end">
+            <ol>
+              <li className="inline-block px-2">
+                <a
+                  href="https://twitter.com/ashsmithco"
+                  rel="nofollow noopener"
+                >
+                  <SiTwitter title="Follow me on Twitter" />
+                </a>
+              </li>
+              <li className="inline-block px-2">
+                <a
+                  href="https://www.strava.com/athletes/5154252"
+                  rel="nofollow noopener"
+                >
+                  <SiStrava title="Follow me on Strava" />
+                </a>
+              </li>
+              <li className="inline-block px-2">
+                <a href="https://github.com/ashsmith" rel="nofollow noopener">
+                  <SiGithub title="Follw me on GitHub" />
+                </a>
+              </li>
+              <li className="inline-block px-2">
+                <a
+                  href="https://instagram.com/ashsmith____"
+                  rel="nofollow noopener"
+                >
+                  <SiInstagram title="Follow me on Instagram" />
+                </a>
+              </li>
+              <li className="inline-block px-2">
+                <a
+                  href="https://www.linkedin.com/in/ashsmithco/"
+                  rel="nofollow noopener"
+                >
+                  <SiLinkedin title="Connect with me on LinkedIn" />
+                </a>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div className="max-w-xl m-auto flex justify-center mb-8">
+          {/* <Image src={profilePic} alt="Picture of the author" className="rounded-full" width={95} height={95} placeholder="blur" /> */}
+          <div className="flex flex-col items-center ml-8">
+            <h1 className="text-5xl font-extrabold">Ash Smith</h1>
+            <h2 className="text-xl">Cloud & Serverless Developer</h2>
+          </div>
+        </div>
+      </div>
       <main>{children}</main>
       <footer className="footer">
         <p className="footer__text">

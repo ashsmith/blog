@@ -55,7 +55,7 @@ export default function ProjectSlugRoute(
   return (
     <Container>
       <section className="post">
-        {post.mainImage ? (
+        {post.mainImage && (
           <Image
             className="post__cover"
             src={urlForImage(post.mainImage).url()}
@@ -63,24 +63,45 @@ export default function ProjectSlugRoute(
             width={367}
             alt=""
           />
-        ) : (
-          <Image
-            className="post__cover"
-            src={`/api/fallbackImage?title=${post.title}&w=500&h=300`}
-            height={300}
-            width={500}
-            alt=""
-          />
         )}
         <div className="post__container">
           <h1 className="post__title">{post.title}</h1>
           <p className="post__excerpt">{post.excerpt}</p>
           <p className="post__date">{formatDate(post._createdAt)}</p>
-          <div className="post__content">
+          <div className="">
             <PortableText
               value={post.body}
               onMissingComponent={(e) => console.log(e)}
               components={{
+                marks: {
+                  link: ({ children, value }) => (
+                    <a
+                      href={value.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500 hover:underline"
+                    >
+                      {children}
+                    </a>
+                  ),
+
+                },
+                block: {
+                  blockquote: ({ children }) => (
+                    <blockquote className="text border-l-4 p-4 my-4 bg-slate-50">
+                      {children}
+                    </blockquote>
+                  ),
+                  normal: ({ children }) => (
+                    <p className="text leading-loose mb-4">{children}</p>
+                  ),
+                  h1: ({ children }) => (
+                    <h1 className="text-4xl mb-2 font-extrabold">{children}</h1>
+                  ),
+                  h2: ({ children }) => (
+                    <h2 className="text-2xl my-2 mt-4 font-extrabold">{children}</h2>
+                  ),
+                },
                 types: {
                   code: (props) => <Code {...props.value} />,
                 },
