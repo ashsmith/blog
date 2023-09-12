@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { SlSettings } from 'react-icons/sl'
 
 import { urlForImage } from '~/lib/sanity.image'
 import { type Post } from '~/lib/sanity.queries'
@@ -18,8 +19,10 @@ export default function Card({ post }: { post: Post }) {
           />
         ) : (
           <div className="bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-center w-full h-full">
-            <p className="text-white text-center p-5">{post.title}</p>
-            </div>
+            <p className="text-white text-4xl text-center p-5">
+              <SlSettings />
+            </p>
+          </div>
         )}
       </div>
       <div className="min-w-0 py-0.5 pr-5">

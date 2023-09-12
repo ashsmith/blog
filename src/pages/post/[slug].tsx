@@ -3,6 +3,7 @@ import type { GetStaticProps, InferGetStaticPropsType } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import { useLiveQuery } from 'next-sanity/preview'
+import { SlSettings } from 'react-icons/sl'
 
 import { Code } from '~/components/Code'
 import Container from '~/components/Container'
@@ -55,20 +56,20 @@ export default function ProjectSlugRoute(
 
   return (
     <Container>
-    <Head>
-      <title>{post.title}</title>
-      <meta name="description" content={post.title} />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta
-        name="og:image"
-        content={`https://3nrgyfm9aj.execute-api.eu-west-1.amazonaws.com/dev/hello?name=${encodeURI(
-          post.title,
-        )}`}
-      />
-      <meta name="og:title" content={post.title} />
-      <meta name="twitter:site" content="@ashsmithco" />
-      <meta name="twitter:creator" content="@ashsmithco" />
-    </Head>
+      <Head>
+        <title>{post.title}</title>
+        <meta name="description" content={post.title} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="og:image"
+          content={`https://3nrgyfm9aj.execute-api.eu-west-1.amazonaws.com/dev/hello?name=${encodeURI(
+            post.title,
+          )}`}
+        />
+        <meta name="og:title" content={post.title} />
+        <meta name="twitter:site" content="@ashsmithco" />
+        <meta name="twitter:creator" content="@ashsmithco" />
+      </Head>
       <section className="post">
         {post.mainImage && (
           <Image
@@ -107,7 +108,9 @@ export default function ProjectSlugRoute(
                     </blockquote>
                   ),
                   normal: ({ children }) => (
-                    <p className="text leading-loose mb-4 break-words">{children}</p>
+                    <p className="text leading-loose mb-4 break-words">
+                      {children}
+                    </p>
                   ),
                   h1: ({ children }) => (
                     <h1 className="text-4xl mb-2 font-extrabold">{children}</h1>
