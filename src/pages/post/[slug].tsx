@@ -70,7 +70,7 @@ export default function ProjectSlugRoute(
         <meta name="twitter:site" content="@ashsmithco" />
         <meta name="twitter:creator" content="@ashsmithco" />
       </Head>
-      <section className="post">
+      <section className="mt-2 mb-4">
         {post.mainImage && (
           <Image
             className="post__cover"
@@ -80,11 +80,11 @@ export default function ProjectSlugRoute(
             alt=""
           />
         )}
-        <div className="post__container">
+        <div>
           <h1 className="text-6xl font-extrabold leading-tight">{post.title}</h1>
           <p className="font-bold italic text-xl leading-loose">{post.excerpt}</p>
           <p className="font-extrabold leading-loose">{formatDate(post._createdAt)}</p>
-          <div className="">
+          <div>
             <PortableText
               value={post.body}
               onMissingComponent={(e) => console.log(e)}
