@@ -1,4 +1,5 @@
 import type { GetStaticProps, InferGetStaticPropsType } from 'next'
+import Head from 'next/head'
 import Image from 'next/image'
 import { useLiveQuery } from 'next-sanity/preview'
 
@@ -43,6 +44,13 @@ export default function IndexPage(
   const [posts] = useLiveQuery<Post[]>(props.posts, postsQuery)
   return (
     <Container>
+    <Head>
+      <title>Ash Smith - Senior Software Engineer. Bath, UK</title>
+      <meta
+        name="description"
+        content="Senior Software Engineer. Bath, UK"
+      />
+    </Head>
       <div className="bg-white rounded-lg overflow-hidden md:ring-1 ring-slate-900/5 flex p-1 md:p-8 mb-5">
         <div className="relative z-10 hidden flex-none overflow-hidden -m-8 mr-2 md:mr-8 w-24 md:w-64 h-auto items-center inline-flex md:block">
           <Image

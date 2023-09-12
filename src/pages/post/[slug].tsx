@@ -1,5 +1,6 @@
 import { PortableText } from '@portabletext/react'
 import type { GetStaticProps, InferGetStaticPropsType } from 'next'
+import Head from 'next/head'
 import Image from 'next/image'
 import { useLiveQuery } from 'next-sanity/preview'
 
@@ -54,6 +55,20 @@ export default function ProjectSlugRoute(
 
   return (
     <Container>
+    <Head>
+      <title>{post.title}</title>
+      <meta name="description" content={post.title} />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta
+        name="og:image"
+        content={`https://3nrgyfm9aj.execute-api.eu-west-1.amazonaws.com/dev/hello?name=${encodeURI(
+          post.title,
+        )}`}
+      />
+      <meta name="og:title" content={post.title} />
+      <meta name="twitter:site" content="@ashsmithco" />
+      <meta name="twitter:creator" content="@ashsmithco" />
+    </Head>
       <section className="post">
         {post.mainImage && (
           <Image
