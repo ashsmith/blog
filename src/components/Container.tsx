@@ -17,8 +17,12 @@ export default function Container({ children }: { children: React.ReactNode }) {
               <li className="inline-block px-2">
                 <Link href="/">Home</Link>
               </li>
-              {/* <li className="inline-block px-2"><Link href="/">About</Link></li> */}
-              {/* <li className="inline-block px-2"><Link href="/">Blog</Link></li> */}
+              <li className="inline-block px-2">
+                <Link href="/about">About</Link>
+              </li>
+              <li className="inline-block px-2">
+                <Link href="/blog">Blog</Link>
+              </li>
             </ul>
           </div>
           <div className="place-self-end">
@@ -64,7 +68,6 @@ export default function Container({ children }: { children: React.ReactNode }) {
           </div>
         </div>
         <div className="max-w-xl m-auto flex justify-center mb-8">
-          {/* <Image src={profilePic} alt="Picture of the author" className="rounded-full" width={95} height={95} placeholder="blur" /> */}
           <div className="flex flex-col items-center mt-8">
             <h1 className="text-5xl font-extrabold">Ash Smith</h1>
             <h2 className="text-xl">Cloud & Serverless Developer</h2>
