@@ -6,7 +6,7 @@ export default function IndexPage() {
   return (
     <Container>
       <Head>
-        <title>Blog - Ash Smith - Senior Software Engineer. Bath, UK</title>
+        <title>About - Ash Smith - Senior Software Engineer. Bath, UK</title>
         <meta name="description" content="Senior Software Engineer. Bath, UK" />
       </Head>
       <div className="bg-white rounded-lg overflow-hidden md:ring-1 ring-slate-900/5 flex p-1 md:p-8 mb-5">
