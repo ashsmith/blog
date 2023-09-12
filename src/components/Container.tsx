@@ -65,7 +65,7 @@ export default function Container({ children }: { children: React.ReactNode }) {
         </div>
         <div className="max-w-xl m-auto flex justify-center mb-8">
           {/* <Image src={profilePic} alt="Picture of the author" className="rounded-full" width={95} height={95} placeholder="blur" /> */}
-          <div className="flex flex-col items-center ml-8">
+          <div className="flex flex-col items-center mt-8">
             <h1 className="text-5xl font-extrabold">Ash Smith</h1>
             <h2 className="text-xl">Cloud & Serverless Developer</h2>
           </div>

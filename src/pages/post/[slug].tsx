@@ -92,7 +92,7 @@ export default function ProjectSlugRoute(
                     </blockquote>
                   ),
                   normal: ({ children }) => (
-                    <p className="text leading-loose mb-4">{children}</p>
+                    <p className="text leading-loose mb-4 break-words">{children}</p>
                   ),
                   h1: ({ children }) => (
                     <h1 className="text-4xl mb-2 font-extrabold">{children}</h1>
