@@ -1,7 +1,9 @@
+import { BatchEvaluateFeatureCommand, EvaluateFeatureCommand,EvidentlyClient } from "@aws-sdk/client-evidently";
 import type { GetStaticProps, InferGetStaticPropsType } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import { useLiveQuery } from 'next-sanity/preview'
+import { useEffect } from "react";
 
 import Card from '~/components/Card'
 import Container from '~/components/Container'
@@ -16,6 +18,7 @@ import {
   postsQuery,
 } from '~/lib/sanity.queries'
 import type { SharedPageProps } from '~/pages/_app'
+
 
 export const getStaticProps: GetStaticProps<
   SharedPageProps & {
@@ -40,7 +43,39 @@ export const getStaticProps: GetStaticProps<
 export default function IndexPage(
   props: InferGetStaticPropsType<typeof getStaticProps>,
 ) {
+  const client = new EvidentlyClient({
+    region: 'eu-west-1',
+    credentials: {
+      accessKeyId: 'ASIAQYP6RMK77DF3S246',
+      secretAccessKey: 'COvXLbuzucpH6Mjr+kAmAMMQ+xtVYMr1JUFp2cjK',
+      sessionToken: 'IQoJb3JpZ2luX2VjEHoaCWV1LXdlc3QtMSJHMEUCIC1HQL2yty1ykn6vjHYRDSDcwVjtj0TJ08EWAZwY3kMAAiEAkTn0FN8a2FROeEjOxNAvA9nDnmw1qMbma0cabSo2+Loq+gIIcxAFGgwwNTI2MTAyOTQ0NjMiDNVPOm9YAMvyH+6WfCrXAj46l0uScHcOOJT4gbhbX1laERvxolXh7LSj5UId1XLheAWDY7c1XHMMnjwiZp6zcu784WQzLSIr5oxQ++eiUwdPkjON8ZDrMXvPouA9ghelZAgNNNI228qiC72XsDXblsQsdmpQiEkXyFhzXcIl7KmEp4yxq+9aNXvOMPZlWpJfOtlpWiI33LYLToGDekQeFtrwJANT205WPfFsstb0FiiI9B1hpeQQMg2EffKMTsxI7VN6U/D277st8xidcBCDuUA9nuUiXRC06nprM2OvxBzlArEFyxFRsmZdEAGX9e3OggUb+jxaZk2n9iSdmDmgPWLCw21VVyH6SHFtE9qjNbpMa+ZQTNzz3KXyOnXybGpM8D2TDiScU/+KTSVYGoZ/3E2eLA9zrwrjxeP0B37RuoO0yrnhSl9mi/dxR2WBnfRRgGjd8lBOMzhv5L22pLygwjBWPvRKwfEwucXKqAY6pgHNRZwISVbHSumz3AkoXylsw4xWddAYfO5fZ5jul60T2qpR9Ie/Zoc4BiP0mmtaIG2UZxeRP1eNavzoc8smJUISGCMBHLDrDZYxzvJhP0D9kjo+VjvMaZJiFgHQSIRAK8HkYevtltoUFAec7HYTxs//3KtzNhEOkLufDcCCaKguobw7uao8nAdXxhsScdofC2NSLpdqvU20BrxX2kysgPgXeTmey23U',
+    }
+  });
+const command = new BatchEvaluateFeatureCommand({
+  project: "AshTest",
+  requests: [
+    { // EvaluateFeatureRequest
+      entityId: 'myId',
+      feature: "AllowSignUp",
+      evaluationContext: JSON.stringify({ Price: 15 }),
+    },
+    {
+      entityId: 'myId',
+      feature: "Login",
+      evaluationContext: JSON.stringify({ Price: 15 }),
+    }
+  ]
+
+});
   const [posts] = useLiveQuery<Post[]>(props.posts, postsQuery)
+
+  useEffect(() => {
+
+    client.send(command).then(result => {
+      console.log(result)
+    })
+  });
+
   return (
     <Container>
       <Head>

@@ -30,6 +30,7 @@ export default function AboutPage(
   props: InferGetStaticPropsType<typeof getStaticProps>,
 ) {
   const [about] = useLiveQuery<About>(props.about, aboutQuery)
+
   return (
     <Container>
       <Head>

@@ -14,6 +14,7 @@
     "singleQuote": true
   },
   "dependencies": {
+    "@aws-sdk/client-evidently": "^3.418.0",
     "@portabletext/react": "3.0.4",
     "@sanity/client": "6.4.7",
     "@sanity/code-input": "^4.1.1",

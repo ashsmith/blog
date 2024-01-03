@@ -6,7 +6,7 @@ import codeInput from '~/schemas/codeInput'
 import home from '~/schemas/home'
 import post from '~/schemas/post'
 
-export const schemaTypes = [post, blockContent, codeInput, home]
+export const schemaTypes = [post, blockContent, codeInput, home, about]
 export const schema: { types: SchemaTypeDefinition[] } = {
-  types: [post, blockContent, codeInput, home, about],
+  types: schemaTypes,
 }
