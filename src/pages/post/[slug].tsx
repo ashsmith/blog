@@ -3,7 +3,6 @@ import type { GetStaticProps, InferGetStaticPropsType } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import { useLiveQuery } from 'next-sanity/preview'
-import { SlSettings } from 'react-icons/sl'
 
 import { Code } from '~/components/Code'
 import Container from '~/components/Container'

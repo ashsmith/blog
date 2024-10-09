@@ -1,5 +1,5 @@
 import React from 'react'
-import Refractor from 'react-refractor/all'
+import Refractor from 'react-refractor'
 import refractor from 'refractor'
 refractor.alias({ bash: ['terraform'] })
 
