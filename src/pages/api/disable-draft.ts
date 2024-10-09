@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next'
-
+export const runtime = 'edge'
 export default function disable(
   req: NextApiRequest,
   res: NextApiResponse<string | void>,

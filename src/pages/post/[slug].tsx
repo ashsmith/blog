@@ -19,6 +19,8 @@ import {
 import type { SharedPageProps } from '~/pages/_app'
 import { formatDate } from '~/utils'
 
+export const runtime = 'edge'
+
 interface Query {
   [key: string]: string
 }
@@ -81,9 +83,15 @@ export default function ProjectSlugRoute(
           />
         )}
         <div>
-          <h1 className="text-6xl font-extrabold leading-tight">{post.title}</h1>
-          <p className="font-bold italic text-xl leading-loose">{post.excerpt}</p>
-          <p className="font-extrabold leading-loose">{formatDate(post._createdAt)}</p>
+          <h1 className="text-6xl font-extrabold leading-tight">
+            {post.title}
+          </h1>
+          <p className="font-bold italic text-xl leading-loose">
+            {post.excerpt}
+          </p>
+          <p className="font-extrabold leading-loose">
+            {formatDate(post._createdAt)}
+          </p>
           <div>
             <PortableText
               value={post.body}
