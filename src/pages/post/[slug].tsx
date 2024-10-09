@@ -19,7 +19,7 @@ import {
 import type { SharedPageProps } from '~/pages/_app'
 import { formatDate } from '~/utils'
 
-export const runtime = 'edge'
+export const runtime = 'experimental-edge'
 
 interface Query {
   [key: string]: string
